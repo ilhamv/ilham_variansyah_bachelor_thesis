@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Awal</class>
+ <widget class="QWidget" name="Awal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>534</width>
+    <height>158</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Simulator LFIPR</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="font">
+      <font>
+       <family>Castellar</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Simulator Dinamika Reaktor Titik LFIPR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Burnup : </string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBoxBU">
+      <item>
+       <property name="text">
+        <string>0 MWd/ton (BOL)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>20677,5 MWd/ton (MOL)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>41355 MWd/ton (EOL)</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="pushButtonMulai">
+     <property name="text">
+      <string>Mulai!!</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

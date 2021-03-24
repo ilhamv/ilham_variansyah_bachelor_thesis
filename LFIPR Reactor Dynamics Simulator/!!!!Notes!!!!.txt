@@ -1,0 +1,15 @@
+Files:
+BeginningBurnup.py --> kode python untuk interface tampilan awal pemilihan tingkat burnup
+BeginningBurnup.ui --> file Qt Designer untuk interface tampilan awal pemilihan tingkat burnup
+LFIPRSimulator.py --> kode python untuk interface tampilan utama simulasi
+LFIPRSimulator.ui --> file Qt Designer untuk interface tampilan utama simulasi
+TrackedNuclide.py --> kode python untuk interface tampilan nuklida yang dilacak (Xe-135 & Sm-149)
+TrackedNuclide.ui --> file Qt Designer untuk interface tampilan nuklida yang dilacak (Xe-135 & Sm-149)
+ReactorDynamics.py --> kode simulator (!!!perlu diubah direktori file outputnya!!!)
+output.txt --> file output simulasi
+
+How to run:
+- Install python(xy) [https://python-xy.github.io/downloads.html]
+- Edit "ReactorDynamics.py"
+  - Ubah "output_directory"
+- Run "ReactorDynamics.py"
