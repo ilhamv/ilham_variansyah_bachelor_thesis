@@ -1,0 +1,3 @@
+# ilham_variansyah_bachelor_thesis
+
+https://www.researchgate.net/publication/335993261_Point_Reactor_Dynamics_Simulator_for_Uranyl_Nitrate_Fuel-Based_Liquid-Fueled_Isotope_Production_Reactor_LFIPR
